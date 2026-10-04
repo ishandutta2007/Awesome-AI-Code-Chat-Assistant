@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 48px; fill: url(#text-gradient); }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 20px; fill: #8b949e; }
+      .badge-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #58a6ff; }
+      
+      @keyframes float1 {
+        0% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-15px) rotate(3deg); }
+        100% { transform: translateY(0px) rotate(0deg); }
+      }
+      @keyframes float2 {
+        0% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-2deg); }
+        100% { transform: translateY(0px) rotate(0deg); }
+      }
+      @keyframes pulse {
+        0% { opacity: 0.2; transform: scale(0.98); }
+        50% { opacity: 0.5; transform: scale(1.02); }
+        100% { opacity: 0.2; transform: scale(0.98); }
+      }
+      .animated-bg-1 { animation: float1 8s ease-in-out infinite; }
+      .animated-bg-2 { animation: float2 10s ease-in-out infinite; }
+      .pulse-glow { animation: pulse 6s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)" rx="12"/>
+
+  <!-- Background Decorative Glowing Orbs -->
+  <circle cx="200" cy="150" r="180" fill="url(#glow)" class="pulse-glow" />
+  <circle cx="1000" cy="150" r="220" fill="url(#glow)" class="pulse-glow" />
+
+  <!-- Background Animated Elements (Low Opacity behind text) -->
+  <g opacity="0.15" class="animated-bg-1">
+    <rect x="80" y="40" width="220" height="80" rx="8" stroke="#58a6ff" stroke-width="2" fill="none"/>
+    <line x1="100" y1="70" x2="240" y2="70" stroke="#58a6ff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="100" y1="90" x2="180" y2="90" stroke="#bc8cff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <g opacity="0.15" class="animated-bg-2">
+    <rect x="900" y="160" width="240" height="100" rx="8" stroke="#bc8cff" stroke-width="2" fill="none"/>
+    <circle cx="940" cy="200" r="15" fill="#bc8cff"/>
+    <line x1="970" y1="200" x2="1090" y2="200" stroke="#3fb950" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Foreground Title and Subtitle (Guaranteed Clear & Visible) -->
+  <g transform="translate(600, 110)" text-anchor="middle">
+    <!-- Category Badge -->
+    <rect x="-110" y="-75" width="220" height="30" rx="15" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text x="0" y="-55" text-anchor="middle" class="badge-text">⚡ CURATED AWESOME LIST</text>
+
+    <!-- Main Title -->
+    <text x="0" y="10" class="title">Awesome AI Code Chat Assistant 🚀</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="55" class="subtitle">Agentic Coding • Codebase-Aware Chat • Multi-File Editing • Terminal Agents</text>
+  </g>
+</svg>
