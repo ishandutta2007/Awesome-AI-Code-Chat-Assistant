@@ -63,44 +63,44 @@ This repository tracks leading commercial **SaaS platforms** and **open-source G
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source AI code chat ecosystem is vibrant and production-proven, sorted below by **GitHub Star Count** (descending).
+The open-source AI code chat ecosystem is vibrant and production-proven, sorted below by **GitHub Stars_Count** (descending).
 
 ### ⚡ Autonomous Coding Agents
 
-- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** [![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)  
-  **Production-grade autonomous software agent platform (formerly OpenDevin).** **MIT licensed**, **64,000+ GitHub stars**.  
+- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** [![GitHub_Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)  
+  **Production-grade autonomous software agent platform (formerly OpenDevin).** **MIT licensed**, **64,000+ GitHub_Stars**.  
   *Key features:* Modular SDK, optional container sandboxing, deterministic event-sourced replay, multi-modal capabilities across CLI, VS Code, and web UI.
 
-- **[Cline](https://github.com/cline/cline)** [![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers)  
-  **Autonomous coding agent for VS Code and terminal.** **Apache-2.0 licensed**, **62,000+ GitHub stars**.  
+- **[Cline](https://github.com/cline/cline)** [![GitHub_Stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers)  
+  **Autonomous coding agent for VS Code and terminal.** **Apache-2.0 licensed**, **62,000+ GitHub_Stars**.  
   *Key features:* Plan/Act modes, execution checkpoints for instant rollback, custom prompt rules, MCP tool extensions, human-in-the-loop permission approvals.
 
-- **[Aider](https://github.com/Aider-AI/aider)** [![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers)  
-  **Git-native AI pair programming in your terminal.** **Apache-2.0 licensed**, **26,000+ GitHub stars**.  
+- **[Aider](https://github.com/Aider-AI/aider)** [![GitHub_Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers)  
+  **Git-native AI pair programming in your terminal.** **Apache-2.0 licensed**, **26,000+ GitHub_Stars**.  
   *Key features:* Automatic repository map, auto-commits with clean git messages, terminal linting/testing loops, voice-to-code capabilities.
 
-- **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** [![GitHub stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers)  
-  **Visionary open-source AI agent ecosystem.** **MIT licensed**, **170,000+ GitHub stars**.  
+- **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** [![GitHub_Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers)  
+  **Visionary open-source AI agent ecosystem.** **MIT licensed**, **170,000+ GitHub_Stars**.  
   *Key features:* Autonomous goal accomplishment, multi-agent orchestrations, code generation capabilities.
 
 ---
 
 ### 💻 IDE-Integrated Assistants
 
-- **[Continue](https://github.com/continuedev/continue)** [![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
-  **Open-source AI code assistant for VS Code and JetBrains.** **Apache-2.0 licensed**, **36,000+ GitHub stars**.  
+- **[Continue](https://github.com/continuedev/continue)** [![GitHub_Stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
+  **Open-source AI code assistant for VS Code and JetBrains.** **Apache-2.0 licensed**, **36,000+ GitHub_Stars**.  
   *Key features:* Connect any local or cloud LLM, custom inline edit and chat workflows, configurable prompts, local context indexers.
 
-- **[Tabby](https://github.com/TabbyML/tabby)** [![GitHub stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers)  
-  **Self-hosted AI coding assistant — on-premises alternative to GitHub Copilot.** **Apache-2.0 licensed**, **22,000+ GitHub stars**.  
+- **[Tabby](https://github.com/TabbyML/tabby)** [![GitHub_Stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers)  
+  **Self-hosted AI coding assistant — on-premises alternative to GitHub Copilot.** **Apache-2.0 licensed**, **22,000+ GitHub_Stars**.  
   *Key features:* Consumer-grade GPU support, self-contained architecture (no external DB), repository RAG indexing, enterprise data privacy.
 
 ---
 
 ### 🖥️ Terminal & CLI Agents
 
-- **[Mentat](https://github.com/AbanteAI/mentat)** [![GitHub stars](https://img.shields.io/github/stars/AbanteAI/mentat?style=social&color=white)](https://github.com/AbanteAI/mentat/stargazers)  
-  **CLI coding assistant that coordinates edits across multiple files.** **Apache-2.0 licensed**, **4,500+ GitHub stars**.  
+- **[Mentat](https://github.com/AbanteAI/mentat)** [![GitHub_Stars](https://img.shields.io/github/stars/AbanteAI/mentat?style=social&color=white)](https://github.com/AbanteAI/mentat/stargazers)  
+  **CLI coding assistant that coordinates edits across multiple files.** **Apache-2.0 licensed**, **4,500+ GitHub_Stars**.  
   *Key features:* Command-line code editing, context awareness across directory trees, interactive terminal workflow.
 
 - **[CoderAI](https://pypi.org/project/coderai-agent/)** [![PyPI version](https://img.shields.io/pypi/v/coderai-agent?style=social&color=white)](https://pypi.org/project/coderai-agent/)  
@@ -119,12 +119,12 @@ The open-source AI code chat ecosystem is vibrant and production-proven, sorted 
 
 ### 🛠️ Editor Forks & Extension Frameworks
 
-- **[PearAI](https://github.com/trypear/pearai-submodule)** [![GitHub stars](https://img.shields.io/github/stars/trypear/pearai-submodule?style=social&color=white)](https://github.com/trypear/pearai-submodule/stargazers)  
-  **Open-source AI-first code editor.** **Apache-2.0 licensed**, **4,000+ GitHub stars**.  
+- **[PearAI](https://github.com/trypear/pearai-submodule)** [![GitHub_Stars](https://img.shields.io/github/stars/trypear/pearai-submodule?style=social&color=white)](https://github.com/trypear/pearai-submodule/stargazers)  
+  **Open-source AI-first code editor.** **Apache-2.0 licensed**, **4,000+ GitHub_Stars**.  
   *Key features:* Open-source VS Code fork with native AI agent integrations.
 
-- **[Void](https://github.com/voideditor/void)** [![GitHub stars](https://img.shields.io/github/stars/voideditor/void?style=social&color=white)](https://github.com/voideditor/void/stargazers)  
-  **Open-source Cursor alternative.** **Apache-2.0 licensed**, **15,000+ GitHub stars**.  
+- **[Void](https://github.com/voideditor/void)** [![GitHub_Stars](https://img.shields.io/github/stars/voideditor/void?style=social&color=white)](https://github.com/voideditor/void/stargazers)  
+  **Open-source Cursor alternative.** **Apache-2.0 licensed**, **15,000+ GitHub_Stars**.  
   *Key features:* Full control over hosting, model selection, and private codebase indexing inside VS Code fork.
 
 ---
